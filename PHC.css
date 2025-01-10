@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
+a:link,
+a:visited {
+    background-color: black;
+    color: azure;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: red;
+    color: white;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    padding: none;
+    margin: 0;
+    background: none;
+
+}
+
+div.gallery {
+    margin: 100px;
+    border: 1px solid#ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: none;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.descr {
+    padding: 15px;
+    text-align: center;
+}
+
+img {
+    opacity: none;
+}
+
+img:hover {
+    opacity: none;
+}
+
+div.background {
+    background: url(bed_bug_.jpg);
+    border: 1px solid black;
+}
+
+div .transbox {
+    margin: 10px;
+    background-color: white;
+    border: 1px solid green;
+    opacity: 0.6;
+}
+
+div.transbox h1 {
+    margin: 2%;
+    font-weight: bold;
+    color: blue;
+}
+
+div.transbox h2 {
+    margin: 2%;
+    font-weight: bold;
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    color: greenyellow;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+}
+
+input[type=text],
+select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: in-lineblock;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 4px 2px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #04AA6D;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type=submit]:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+textarea {
+    width: 50%;
+    margin: 8px 0;
+    height: 150px;
+    background-color: #f8f8f8;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
