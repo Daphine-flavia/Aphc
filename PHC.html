@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"-UGA>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PHC.css">
+    <title>Public Health Consultants</title>
+</head>
+<body>
+    <header>
+        <div class="background">
+        <div class="transbox">
+        <h1>Araali Public Health Consultants</h1><br>
+        <br>
+        <h2>Call Us On +256-706-309-306/+256-783-039-089</h2><br>
+    </div>
+</div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="Services.html">Services</a>
+                    <a href="about.html">About Us</a>
+                    <a href="gallery.html">Our Gallery</a>
+                    
+                </li>
+            </ul>
+        </nav>
+    </header>
+        <img src="aphc.jpg" width="900" height="500">
+        <h2>Location</h2>
+        Find us at Kiwatule Nalyaa-Najeera Road Junction<br>
+        <br>
+        100Metres Before Shell Kiwatuule,Opposite Birunga Pub and Restaurant.<br>
+<br>
+            <h2>Contact Us</h2>
+            <form id="myForm">
+                <form id="myForm" action="http://localhost:5500/submit-form" method="POST">
+                <label for="Username">Username:</label>
+                <input type="text" id="Username" placeholder="Username"required minlength="3" maxlength="15" autocomplete="given Username">
+                <span id="usernameError" class="error"></span>
+                <label for="email">Email:</label>
+            <input id="email" placeholder="email" autocomplete="on">
+            <span id="emailError" class="error"></span>
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Enter your feedback..."required></textarea>
+            <span id="messageError" class="error"></span>
+
+            <button type="submit">Submit</button>
+            </form>
+        
+        <footer>
+            <p>&copy;2025 Araali Public Health Consultants. All Rights Reserved.</p>
+        </footer>
+        <!--Link external javascript file to html-->
+        <script src="PHC.js"></script>
+</body>
+</html>
