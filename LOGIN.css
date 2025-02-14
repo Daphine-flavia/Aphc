@@ -1,0 +1,74 @@
+/** @format */
+
+
+body{
+	animation: backgroundAnimation 5s infinite;
+	background-size: cover;
+	background-position: center;
+}
+@keyframes backgroundAnimation{
+	0%{
+		background-image: linear-gradient(to right,aqua,royalblue);
+	}
+	50%{
+		background-image:url(dubai.png);
+	}
+	100%{
+		background-image: linear-gradient(to right,aqua,royalblue);
+	}
+}
+h1 {
+	color: white;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	font-style: normal;
+}
+.form-container {
+	background-color: white;
+	padding: 70px;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px;
+	width: 100%;
+	margin: auto;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.form-control {
+	border-color: #007bff;
+}
+.btn-default {
+	background-color: blue;
+	position: relative;
+	overflow: hidden;
+	text-decoration: none;
+	color: white;
+	border: none;
+	cursor: pointer;
+	margin: 8px 0;
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+	transition-duration: 0.4s;
+}
+.btn-default:after {
+	content: '';
+	background: red;
+	color: pink;
+	display: block;
+	position: absolute;
+	padding-top: 300%;
+	padding-left: 350%;
+	margin: left -20px;
+	margin-top: -120%;
+	opacity: 0;
+	transition: all 0.8s;
+}
+.btn-default:active:after {
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+	transition: 0s;
+}
